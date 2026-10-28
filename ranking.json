@@ -1,0 +1,459 @@
+{
+  "config_version": "solar-triage-windsor-2026-v1::1.0",
+  "config_hash": "81ffc28012515652",
+  "proposals": [
+    {
+      "proposal": "A",
+      "rank": null,
+      "status": "flagged",
+      "score": null,
+      "reason": "Flagged for review: insufficient evidence to score experience Review flags: experience component cannot be scored without a verified qualifying installation count.",
+      "eligibility": {
+        "eligible": true,
+        "rankable": false
+      },
+      "component_scores": {
+        "experience": {
+          "score": null,
+          "status": "flagged",
+          "reason": "Experience evidence not verified for the rolling five-year window. Year-only claim 'since 2021' cannot establish how many installations fall within a rolling five-year window without an evaluation date and per-installation dates."
+        },
+        "price": {
+          "score": 238000.0,
+          "status": "computed",
+          "reason": "Price CAD 238,000 within budget ceiling."
+        },
+        "timeline": {
+          "score": 25.0,
+          "status": "computed",
+          "reason": "12.0 weeks within 16.0-week maximum."
+        },
+        "warranty": {
+          "score": 91.67,
+          "status": "computed",
+          "reason": "Panel 25y (100.0), workmanship 10y (83.3)."
+        },
+        "team_approach": {
+          "score": 100.0,
+          "status": "computed",
+          "reason": "Team and approach rubric applied to documented evidence."
+        }
+      },
+      "evidence_references": {
+        "experience": "Fourteen commercial installations between 100 and 400 kW since 2021, including three warehouse rooftops in Essex County.",
+        "price": "Total price CAD 238,000.",
+        "timeline": "Completion within 12 weeks of award.",
+        "warranty": "Panels carry a 25-year manufacturer warranty; workmanship warrantied for 10 years.",
+        "team_approach": "Named senior project manager with a six-person certified crew; site safety plan and 12 months of remote performance monitoring."
+      },
+      "review_flags": [
+        "not_rankable"
+      ],
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "audit_id": "audit-A"
+    },
+    {
+      "proposal": "C",
+      "rank": null,
+      "status": "flagged",
+      "score": null,
+      "reason": "Flagged for review: insufficient evidence to score experience Review flags: experience component cannot be scored without a verified qualifying installation count.",
+      "eligibility": {
+        "eligible": true,
+        "rankable": false
+      },
+      "component_scores": {
+        "experience": {
+          "score": null,
+          "status": "flagged",
+          "reason": "Experience evidence not verified for the rolling five-year window. Year-only claim 'since 2020' cannot establish how many installations fall within a rolling five-year window without an evaluation date and per-installation dates."
+        },
+        "price": {
+          "score": 244000.0,
+          "status": "computed",
+          "reason": "Price CAD 244,000 within budget ceiling."
+        },
+        "timeline": {
+          "score": 12.5,
+          "status": "computed",
+          "reason": "14.0 weeks within 16.0-week maximum."
+        },
+        "warranty": {
+          "score": 91.67,
+          "status": "computed",
+          "reason": "Panel 25y (100.0), workmanship 10y (83.3)."
+        },
+        "team_approach": {
+          "score": 75.0,
+          "status": "computed",
+          "reason": "Team and approach rubric applied to documented evidence."
+        }
+      },
+      "evidence_references": {
+        "experience": "Nine commercial installations of at least 100 kW since 2020.",
+        "price": "Price CAD 244,000.",
+        "timeline": "Completion in 14 weeks.",
+        "warranty": "Panel warranty 25 years; workmanship warranty 10 years.",
+        "team_approach": "Named lead; five-person crew; weekly progress reports."
+      },
+      "review_flags": [
+        "not_rankable"
+      ],
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "audit_id": "audit-C"
+    },
+    {
+      "proposal": "D",
+      "rank": null,
+      "status": "flagged",
+      "score": null,
+      "reason": "Flagged for review: insufficient evidence to score experience, timeline Review flags: experience component cannot be scored without a verified qualifying installation count.; timeline component cannot be scored without verified timeline evidence.",
+      "eligibility": {
+        "eligible": true,
+        "rankable": false
+      },
+      "component_scores": {
+        "experience": {
+          "score": null,
+          "status": "flagged",
+          "reason": "Experience evidence not verified for the rolling five-year window. Year-only claim 'during the last five years' cannot establish how many installations fall within a rolling five-year window without an evaluation date and per-installation dates."
+        },
+        "price": {
+          "score": 231000.0,
+          "status": "computed",
+          "reason": "Price CAD 231,000 within budget ceiling."
+        },
+        "timeline": {
+          "score": null,
+          "status": "flagged",
+          "reason": "Timeline not verified; cannot confirm 16-week constraint."
+        },
+        "warranty": {
+          "score": 91.67,
+          "status": "computed",
+          "reason": "Panel 25y (100.0), workmanship 10y (83.3)."
+        },
+        "team_approach": {
+          "score": 50.0,
+          "status": "computed",
+          "reason": "Team and approach rubric applied to documented evidence."
+        }
+      },
+      "evidence_references": {
+        "experience": "Eleven commercial installations exceeding 100 kW during the last five years.",
+        "price": "Price CAD 231,000.",
+        "timeline": "Completion schedule will be determined after site assessment.",
+        "warranty": "Panels carry a 25-year warranty; workmanship covered for 10 years.",
+        "team_approach": "Named project manager; structural roof review; safety plan."
+      },
+      "review_flags": [
+        "not_rankable"
+      ],
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "audit_id": "audit-D"
+    },
+    {
+      "proposal": "E",
+      "rank": null,
+      "status": "flagged",
+      "score": null,
+      "reason": "Flagged for review: insufficient evidence to score experience Review flags: experience component cannot be scored without a verified qualifying installation count.",
+      "eligibility": {
+        "eligible": true,
+        "rankable": false
+      },
+      "component_scores": {
+        "experience": {
+          "score": null,
+          "status": "flagged",
+          "reason": "Experience evidence not verified for the rolling five-year window. Year-only claim 'since 2021' cannot establish how many installations fall within a rolling five-year window without an evaluation date and per-installation dates."
+        },
+        "price": {
+          "score": 242500.0,
+          "status": "computed",
+          "reason": "Price CAD 242,500 within budget ceiling."
+        },
+        "timeline": {
+          "score": 18.75,
+          "status": "computed",
+          "reason": "13.0 weeks within 16.0-week maximum."
+        },
+        "warranty": {
+          "score": 100.0,
+          "status": "computed",
+          "reason": "Panel 25y (100.0), workmanship 12y (100.0)."
+        },
+        "team_approach": {
+          "score": 100.0,
+          "status": "computed",
+          "reason": "Team and approach rubric applied to documented evidence."
+        }
+      },
+      "evidence_references": {
+        "experience": "Eight commercial installations of 100 kW or more since 2021.",
+        "price": "Price CAD 242,500 with completion in 13 weeks.",
+        "timeline": "Completion in 13 weeks.",
+        "warranty": "25-year panel warranty and 12-year workmanship warranty.",
+        "team_approach": "Named project lead and a six-person crew; safety plan, roof load assessment, and 24 months of performance monitoring."
+      },
+      "review_flags": [
+        "not_rankable"
+      ],
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "audit_id": "audit-E"
+    },
+    {
+      "proposal": "B",
+      "rank": null,
+      "status": "ineligible",
+      "score": null,
+      "reason": "Ineligible: failed: Ontario electrical contractor licence",
+      "eligibility": {
+        "eligible": false,
+        "rankable": false
+      },
+      "component_scores": {
+        "experience": {
+          "score": 42.86,
+          "status": "computed",
+          "reason": "6 qualifying installations; target 14."
+        },
+        "price": {
+          "score": 189500.0,
+          "status": "computed",
+          "reason": "Price CAD 189,500 within budget ceiling."
+        },
+        "timeline": {
+          "score": 37.5,
+          "status": "computed",
+          "reason": "10.0 weeks within 16.0-week maximum."
+        },
+        "warranty": {
+          "score": 70.83,
+          "status": "computed",
+          "reason": "Panel 25y (100.0), workmanship 5y (41.7)."
+        },
+        "team_approach": {
+          "score": 25.0,
+          "status": "computed",
+          "reason": "Team and approach rubric applied to documented evidence."
+        }
+      },
+      "evidence_references": {
+        "experience": "Six commercial projects exceeding 100 kW in the past four years.",
+        "price": "Total price CAD 189,500 all-in.",
+        "timeline": "Completion in 10 weeks.",
+        "warranty": "Panels include a 25-year warranty; workmanship warrantied for 5 years.",
+        "team_approach": "Project coordinator assigned at kickoff."
+      },
+      "review_flags": [
+        "ineligible",
+        "not_rankable"
+      ],
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "audit_id": "audit-B"
+    }
+  ],
+  "audit": [
+    {
+      "timestamp": "2026-10-28T09:42:39.218203+00:00",
+      "proposal_id": "A",
+      "event_type": "mandatory_evaluation",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "eligibility",
+      "evidence_reference": "proposal.mandatory",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "All mandatory requirements passed."
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.218203+00:00",
+      "proposal_id": "A",
+      "event_type": "scoring",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "scoring",
+      "evidence_reference": "",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "Flagged for review: insufficient evidence to score experience Review flags: experience component cannot be scored without a verified qualifying installation count."
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.218203+00:00",
+      "proposal_id": "B",
+      "event_type": "mandatory_evaluation",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "eligibility",
+      "evidence_reference": "proposal.mandatory",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "failed: Ontario electrical contractor licence"
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.218203+00:00",
+      "proposal_id": "B",
+      "event_type": "scoring",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "scoring",
+      "evidence_reference": "",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "Ineligible: failed: Ontario electrical contractor licence"
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.218203+00:00",
+      "proposal_id": "C",
+      "event_type": "mandatory_evaluation",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "eligibility",
+      "evidence_reference": "proposal.mandatory",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "All mandatory requirements passed."
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.230004+00:00",
+      "proposal_id": "C",
+      "event_type": "scoring",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "scoring",
+      "evidence_reference": "",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "Flagged for review: insufficient evidence to score experience Review flags: experience component cannot be scored without a verified qualifying installation count."
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.230004+00:00",
+      "proposal_id": "D",
+      "event_type": "mandatory_evaluation",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "eligibility",
+      "evidence_reference": "proposal.mandatory",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "All mandatory requirements passed."
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.230004+00:00",
+      "proposal_id": "D",
+      "event_type": "scoring",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "scoring",
+      "evidence_reference": "",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "Flagged for review: insufficient evidence to score experience, timeline Review flags: experience component cannot be scored without a verified qualifying installation count.; timeline component cannot be scored without verified timeline evidence."
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.230004+00:00",
+      "proposal_id": "E",
+      "event_type": "mandatory_evaluation",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "eligibility",
+      "evidence_reference": "proposal.mandatory",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "All mandatory requirements passed."
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.230004+00:00",
+      "proposal_id": "E",
+      "event_type": "scoring",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "scoring",
+      "evidence_reference": "",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "Flagged for review: insufficient evidence to score experience Review flags: experience component cannot be scored without a verified qualifying installation count."
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.230004+00:00",
+      "proposal_id": "A",
+      "event_type": "ranking_decision",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "ranking",
+      "evidence_reference": "",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "Status=flagged, rank=None, score=None. Flagged for review: insufficient evidence to score experience Review flags: experience component cannot be scored without a verified qualifying installation count."
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.230004+00:00",
+      "proposal_id": "C",
+      "event_type": "ranking_decision",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "ranking",
+      "evidence_reference": "",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "Status=flagged, rank=None, score=None. Flagged for review: insufficient evidence to score experience Review flags: experience component cannot be scored without a verified qualifying installation count."
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.230004+00:00",
+      "proposal_id": "D",
+      "event_type": "ranking_decision",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "ranking",
+      "evidence_reference": "",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "Status=flagged, rank=None, score=None. Flagged for review: insufficient evidence to score experience, timeline Review flags: experience component cannot be scored without a verified qualifying installation count.; timeline component cannot be scored without verified timeline evidence."
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.230004+00:00",
+      "proposal_id": "E",
+      "event_type": "ranking_decision",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "ranking",
+      "evidence_reference": "",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "Status=flagged, rank=None, score=None. Flagged for review: insufficient evidence to score experience Review flags: experience component cannot be scored without a verified qualifying installation count."
+    },
+    {
+      "timestamp": "2026-10-28T09:42:39.230004+00:00",
+      "proposal_id": "B",
+      "event_type": "ranking_decision",
+      "actor": "system",
+      "config_version": "solar-triage-windsor-2026-v1::1.0",
+      "config_hash": "81ffc28012515652",
+      "stage": "ranking",
+      "evidence_reference": "",
+      "previous_value": null,
+      "updated_value": null,
+      "explanation": "Status=ineligible, rank=None, score=None. Ineligible: failed: Ontario electrical contractor licence"
+    }
+  ]
+}

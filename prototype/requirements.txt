@@ -1,0 +1,1 @@
+# The prototype uses only the Python standard library. No external dependencies are required.

@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "config_id": "solar-triage-windsor-2026-v1",
+  "project": {
+    "name": "Windsor 150 kW Rooftop Solar",
+    "location": "Windsor, Ontario, Canada",
+    "capacity_kw": 150,
+    "budget_ceiling_cad": 260000,
+    "max_completion_weeks": 16
+  },
+  "mandatory_rules": [
+    {
+      "id": "M1",
+      "name": "Ontario electrical contractor licence",
+      "description": "The bidder itself must hold and state the required Ontario electrical contractor licence in the proposal. A subcontractor statement does not satisfy this requirement.",
+      "required_evidence": ["bidder_licence_stated", "licence_number"]
+    },
+    {
+      "id": "M2",
+      "name": "WSIB clearance and liability insurance",
+      "description": "The proposal must confirm both WSIB clearance and liability insurance of at least CAD 5,000,000.",
+      "required_evidence": ["wsib_clearance", "liability_insurance_cad"]
+    }
+  ],
+  "weighted_criteria": [
+    { "id": "experience", "name": "Relevant experience", "weight": 30 },
+    { "id": "price", "name": "Price", "weight": 25 },
+    { "id": "timeline", "name": "Timeline", "weight": 15 },
+    { "id": "warranty", "name": "Warranty", "weight": 15 },
+    { "id": "team_approach", "name": "Team and approach", "weight": 15 }
+  ],
+  "experience": {
+    "target_installations": 14,
+    "capacity_threshold_kw": 100,
+    "evaluation_window_years": 5
+  },
+  "price": {
+    "budget_ceiling_cad": 260000,
+    "must_be_positive": true
+  },
+  "timeline": {
+    "max_weeks": 16,
+    "must_be_positive": true
+  },
+  "warranty": {
+    "panel_target_years": 25,
+    "workmanship_target_years": 12
+  },
+  "team_approach": {
+    "components": [
+      { "id": "named_lead", "name": "Named project lead", "weight": 25 },
+      { "id": "crew_qualifications", "name": "Identified crew and qualifications", "weight": 25 },
+      { "id": "safety_plan", "name": "Safety plan", "weight": 25 },
+      { "id": "monitoring_approach", "name": "Monitoring approach", "weight": 25 }
+    ]
+  },
+  "tie_breaking": [
+    { "rule": "higher_unrounded_total_score", "order": 1 },
+    { "rule": "higher_experience_score", "order": 2 },
+    { "rule": "lower_verified_price", "order": 3 },
+    { "rule": "stable_proposal_identifier", "order": 4 }
+  ],
+  "missing_evidence_policy": {
+    "unknown_timeline": "flag_review",
+    "unknown_experience_count": "flag_review",
+    "missing_mandatory_evidence": "flag_review_or_ineligible",
+    "do_not_fabricate_scores": true
+  },
+  "rounding_policy": {
+    "presentation_decimals": 2,
+    "round_only_for_output": true
+  }
+}
