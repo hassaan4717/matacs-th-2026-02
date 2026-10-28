@@ -1,6 +1,6 @@
 # WRITEUP.md
 
-MATACS Technologies — AI Proposal Triage Design
+MATACS Technologies : AI Proposal Triage Design
 Reference: MATACS-TH-2026-02
 Candidate: Muhammad Hassaan Masood
 
