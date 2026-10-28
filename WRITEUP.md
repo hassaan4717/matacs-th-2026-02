@@ -34,4 +34,3 @@ Mitigations: treat proposal text as untrusted data and ignore embedded instructi
 
 This is a working local prototype. A production deployment would additionally require access control, secure document storage, retention policies, monitoring, model/version management, and a formal review process. Those controls do not exist in the prototype and are not claimed to.
 
-Word count target: approximately 750 words.
